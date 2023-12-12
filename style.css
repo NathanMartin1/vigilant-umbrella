@@ -1,0 +1,125 @@
+body {
+    font-family: sans-serif;
+    background-color: #000050;
+    text-align: center!important;
+    color: whitesmoke;
+}
+.location img, .collapse img {
+    border-radius: 20px;
+    width:60%;
+    height:60%;
+    padding-top: 5px;
+}
+#hiddencontent {
+    opacity: 70%;
+    background-color: whitesmoke;
+    width:40%;
+    height:30%;
+    border-radius:20px;
+    display:none;
+}
+#achievement1 img{
+    width:42.5%;
+    height:42.5%;
+}
+h2, h4{
+    font-family: 'Old English Five',sans-serif;
+    color: #900;
+}
+h2 {
+    text-decoration: underline;
+    text-decoration-color: whitesmoke;
+}
+header {
+    color: #900;
+    background-color: whitesmoke;
+    padding: 5px;
+    border-radius: 20px;
+    position: fixed;
+    top: 2px;
+    left: 20px;
+    right: 20px;
+    z-index: 1; 
+}
+header ul {
+    list-style-type: none;
+}
+#logo {
+    display: block;
+}
+header nav ul li{
+    display:inline-block;
+    font-family: 'Old English Five',sans-serif;
+    text-decoration: none;
+}
+iframe {
+    border-radius: 20px;
+}
+.article {
+    border-radius: 20px;
+    width:80%;
+    padding:10px;
+    background-color: whitesmoke;
+    display: inline-block;
+    color:#000080;
+}
+.article h3 {
+    font-family: 'Old English Five',sans-serif;
+}
+.div_container {
+    display: inline-block;
+}
+.location {
+    display: inline-block;
+    border-radius: 20px;
+    background-color: whitesmoke;
+    color: #000080;
+    width: 80%;
+}
+.location h5{
+    color: #000080;
+    padding-bottom: 5px;
+}
+.content {
+    background-color: inherit;
+    border-radius: 20px;
+}
+#contact {
+    background-color: whitesmoke;
+    border-radius: 20px;
+    width:80%;
+    padding:10px;
+    display: inline-block;
+}
+a:active {
+    text-decoration: none;
+    color: #000080;
+}
+a:active :hover{
+    text-decoration: underline;
+    color: #900; 
+}
+a:link {
+    text-decoration: none;
+    color: #000080;
+}
+a #lookaround:hover {
+    text-decoration: underline;
+    color: #900;
+}
+a:hover {
+    text-decoration: underline;
+    color: #900;
+}
+a:visited{
+    text-decoration: none;
+    color:#000080;
+}
+header:hover {
+    border-radius: 50px;
+}
+marquee:hover {
+    animation-play-state: paused;
+    -o-animation-play-state: paused;
+    -moz-animation-play-state: paused;
+}
